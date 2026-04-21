@@ -20,23 +20,6 @@ The criteria for selecting the models were that they are open-source and achieve
 
 When running experiments with a model for the first time, embeddings are computed from scratch and saved in the output directory provided as argument (see below). Subsequent runs load the embeddings from the corresponding directory. To force recomputation of the embeddings, the corresponding directory must be manually removed.
 
-### Large model
-
-We did not consider models that used more than 8000 MB memory given our environment constraints.
-
-`Qwen/Qwen3-Embedding-4B`
-
-- decoder-only LLM
-
-- 7671 MB memory usage
-
-- 2560 embedding dimension
-
-```bash
- python -m src.eval --input_dir data/ --output_dir output --model_name Qwen/Qwen3-Embedding-4B
-  ```
-
-
 ### Average model size
 
 `google/embeddinggemma-300m`
