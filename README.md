@@ -2,7 +2,7 @@
 
 This repository provides our Python code to reproduce the experiments from the paper "A Study of Biases in LLM-Generated Musical Taste Profiles for Recommendation". Submited to ACM Transactions on Recommender Systems. 
 
-The data can be found in the [repository of the recsys version of this paper](https://github.com/deezer/recsys25_llm_biases). 
+The data and code for reproducing some of the experiments can be found in the [repository of the recsys version of this paper](https://github.com/deezer/recsys25_llm_biases). 
 
 # Recommendation-as-retrieval experiments
 
